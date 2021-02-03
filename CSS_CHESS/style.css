@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+
+    margin: auto;
+    margin-top: 10%;
+    border-spacing: 0;
+    width: 260px;
+    height: 260px;
+    
+}
+
+td{
+    border: 0.5px solid #b3b3b3;
+}
+td:first-child{
+    width: 15px;
+    background-color: rgb(250, 50, 173);
+}
+td:last-child{
+    width: 15px;
+    background-color: rgb(250, 50, 173);
+}
+tr:last-child .td_9{
+    height: 15px;
+}
+
+tr:first-child .td_2{
+    height: 15px;
+}
+tr:first-child, tr:last-child{
+    background-color: rgb(250, 50, 173);
+}
+
+.elem_2 .odd{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_3 .elem{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_4 .odd{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_5 .elem{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_6 .odd{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_7 .elem{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_8 .odd{
+    background-color: rgb(0, 0, 0);
+}
+
+.elem_9 .elem{
+    background-color: rgb(0, 0, 0);
+}

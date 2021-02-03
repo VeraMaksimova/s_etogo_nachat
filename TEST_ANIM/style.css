@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 800px;
+    height: 500px;
+    border:2px solid rgb(202, 145, 255);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
+    display: flex;
+}
+
+.container:hover .elem_1{
+    animation:krug 1s linear infinite;
+}
+.container:hover .elem_2{
+  
+    animation: triangle 2s ease-in infinite;
+}
+
+.container:hover .elem_4{
+    animation: tri 2s ease-in infinite;
+}
+.elem_1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 187, 187);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.elem_2{
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+    border-bottom: 160px solid rgb(189, 223, 255);
+    display: flex;
+    align-self: center;
+
+ 
+}
+
+.elem_3{
+    display: flex;
+    align-self: flex-end;
+    width: 100px;
+	height: 100px;
+	background: rgb(255, 253, 152);
+}
+
+.elem_4{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 200px solid rgb(255, 164, 250);
+}
+
+.elem_5{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(152, 255, 215);
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    animation: oval 1s ease-in-out infinite;
+}
+
+@keyframes oval{
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes krug{
+    0%{
+        background-color:rgb(255, 187, 187);
+    }
+    20%{
+        background-color:rgb(111, 199, 103);
+    }
+    40%{
+        background-color:rgb(126, 165, 201);
+    }
+    60%{
+        background-color:rgb(207, 154, 218);
+    }
+    80%{
+        background-color:rgb(194, 172, 124);
+    }
+    100%{
+         background-color:rgb(255, 187, 187);
+    
+    }
+}
+@keyframes triangle{
+    50%{
+        border-left: 80px solid transparent;
+	    border-right: 80px solid transparent;
+        border-bottom: 140px solid rgb(93, 180, 115);
+    }
+    80%{
+        border-left: 120px solid transparent;
+	    border-right: 120px solid transparent;
+        border-bottom: 140px solid rgb(163, 93, 180);
+    }
+}
+
+@keyframes tri{
+  
+    20%{
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 200px solid rgb(175, 240, 54);
+    }
+    40%{
+        border-left: 80px solid transparent;
+	    border-right: 80px solid transparent;
+	    border-top: 100px solid rgb(0, 201, 252);
+    }
+    60%{
+        border-left: 50px solid transparent;
+	    border-right: 50px solid transparent;
+	    border-top: 200px solid rgb(161, 230, 51);
+    }
+    80%{
+        border-left: 80px solid transparent;
+	    border-right: 80px solid transparent;
+	    border-top: 100px solid rgb(0, 201, 252);
+    }
+ 
+    }

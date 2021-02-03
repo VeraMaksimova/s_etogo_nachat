@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: rgb(211, 91, 175);
+    text-align: center;
+    font-family: monospace;
+}
+.maket_1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.maket_1 a{
+    padding: 10px;
+    border:1px solid black;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 11px;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+
+}
+.maket_1 a:hover{
+   color:red;
+}
+
+.maket_2{
+    display: flex;
+    justify-content: center;
+}
+
+.maket_2 a{
+    padding: 10px;
+    /*border:1px solid black; */
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 11px;
+
+}
+
+.maket_2 a:hover{
+    color:red;
+}
+
+.maket_2 div:not(:last-child):after{
+    content:'|';
+    color:red;
+}
+.maket_2 div::after{
+    font-size: 35px;
+    vertical-align: top;
+}

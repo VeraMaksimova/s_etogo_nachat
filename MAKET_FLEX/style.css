@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(143, 206, 214);
+    padding: 20px ;
+}
+
+
+.sport {
+    padding:50px 50px 70px 50px;
+    background-color: rgb(246, 248, 136);
+}
+
+.sport h3{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.sport ul li{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+}
+
+.content .football{
+    width: 100%;
+}
+
+.content .football h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content .football img{
+    width: 320px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content .football p{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;  
+    margin-left: 30px;
+}
+
+.content .football_p{
+    margin-bottom: 30px;
+
+}
+
+footer h1{
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: rgb(143, 206, 214);
+    padding: 20px ;
+}
